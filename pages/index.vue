@@ -1,23 +1,19 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        Lapki - Randomizer
-      </h1>
-      <h2 class="subtitle">
-        я ничего не хочу решать, у меня лапки
-      </h2>
-      <app/>
+      <h1 class="title">Lapki - Randomizer</h1>
+      <h2 class="subtitle">я ничего не хочу решать, у меня лапки</h2>
+      <rando/>
     </div>
   </section>
 </template>
 
 <script>
-import App from '~/components/App.vue'
+import Rando from '~/components/Rando.vue'
 
 export default {
   components: {
-    App
+    Rando
   }
 }
 </script>
@@ -26,7 +22,7 @@ export default {
 
 .container {
   min-height: 100vh;
-/* display: flex; */  
+  /* display: flex; */  
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -49,8 +45,5 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>
 
