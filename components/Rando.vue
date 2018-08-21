@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       choises: '',
-      answer: 'фар фыр фыр'
+      answer: 'фыр фыр фыр'
     }
   },
   methods: {
